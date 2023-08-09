@@ -51,7 +51,7 @@ const Sidebar = () =>  {
         <ul>
             <li>
                 <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/christopher-uffman-a62575130/'>
-                    <FontAwesomeIcon icon={faLinkedIn} color="#4d4d4e" />
+                    <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
                 </a>
             </li>
             <li>
