@@ -1,0 +1,22 @@
+{
+    "portfolio": [
+        {
+            "cover": "karoakeDokie thumbnail",
+            "title": "KaraokeDokie",
+            "description": "Karaoke Application",
+            "url": "https://charles-ram.github.io/karaoke-dokie-project/"
+        },
+        {
+            "cover": "parkingbuddy thumbnail",
+            "title": "ParkingBuddy",
+            "description": "Parking Application",
+            "url": "https://github.com/charles-ram/karaoke-dokie-project"
+        },
+        {
+            "cover": "Cardify thumbnail",
+            "title": "Cardify",
+            "description": "Card-making application",
+            "url": "https://github.com/SMU-Bootcamp-Project3/Cardify"
+        }
+    ]
+}
