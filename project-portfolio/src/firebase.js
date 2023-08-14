@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { getStorage } from 'firebase/storage';
 import { getFirestore } from 'firebase/firestore/lite';
-import firebase from "firebase/app";
+// import firebase from "firebase/app";
 import "firebase/auth";
 
 const firebaseConfig = {
