@@ -3,6 +3,7 @@ import AnimatedLetters from '../AnimatedLetters';
 import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngular, faHtml5, faCss3, faJsSquare, faReact, faGitAlt } from '@fortawesome/free-brands-svg-icons';
+import Loader from 'react-loaders';
 
 const About = () => {
 
@@ -15,6 +16,7 @@ const About = () => {
     // }, [])
 
     return (
+        <>
         <div className="container about-page" >
             <div className="text-zone">
                 <h1>
@@ -64,6 +66,8 @@ const About = () => {
                 </div>
             </div>
         </div>
+        <Loader type="pacman" />
+        </>
     )
 }
 
