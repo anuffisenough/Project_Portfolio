@@ -35,7 +35,7 @@ const Logo = () => {
                 duration: 4,
             }
         )
-    }, [])
+    }, []);
 
     return (
         <>
