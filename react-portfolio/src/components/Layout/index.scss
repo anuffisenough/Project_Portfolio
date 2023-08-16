@@ -85,7 +85,7 @@
         }
 
         p {
-            font-style: 13px;
+            font-size: 13px;
             color: #fff;
             font-family: sans-serif;
             font-weight: 300;
@@ -102,6 +102,31 @@
 
             &:nth-of-type(3) {
                 animation-delay: 1.3s;
+            }
+
+            &::before{
+                content: '<p>';
+                font-family: 'La Belle Aurore';
+                font-size: 18px;
+                position: absolute;
+                margin-top: -10px;
+                left: -10px;
+                opacity: 0.6;
+                line-height: 18px;
+                color: #ffd700;
+            }
+
+            &::after {
+                content: '<p/>';
+                font-family: 'La Belle Aurore';
+                font-size: 18px;
+                line-height: 18px;
+                position: absolute;
+                left: -30px;
+                bottom: -20px;
+                margin-left: 20px;
+                opacity: 0.6;
+                color: #ffd700;
             }
         }
     }

@@ -52,7 +52,10 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
-                        I am interested in freelance opportunities - especially abmitious or large projects. If you have other requests or questions, don't hesitate to contact me using the form below.
+                        I am interested in programming opportunities or freelance work that utilize front-end, back-end, or full-stack development skills.
+                    </p>
+                    <p>
+                        Please feel free to send me a message if you feel I can be an asset to your company or project!
                     </p>
                     <div className="contact-form">
                         <form ref={refForm} onSubmit={sendEmail}>
@@ -89,7 +92,7 @@ const Contact = () => {
                     <MapContainer center={[39.73915, -104.9847]} zoom={13}>
                         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
                         <Marker position={[39.73915, -104.9847]}>
-                            <Popup>This is Capitol Hill!</Popup>
+                            <Popup>I live in Capitol Hill!</Popup>
                         </Marker>
                     </MapContainer>
                 </div>
