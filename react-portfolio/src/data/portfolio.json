@@ -1,16 +1,22 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/ParkingBuddy/ParkingBuddyHPScreenShot.png",
-            "title": "ParkingBuddy",
-            "description": "BootStrap, MongoDB, Techs",
-            "url": "https:/"
+            "cover": "/portfolio/KaraokeDokie/KaraokeDokieHomeSearch.png",
+            "title": "KaraokeDokie",
+            "description": "Tailwind CSS, Flowbite Tailwind Components, Font Awesome, Google Fonts API, Shazam API, YouTube API, jQuery, JavaScript, Local Storage",
+            "url": "https://charles-ram.github.io/karaoke-dokie-project/"
         },
         {
             "cover": "/portfolio/ParkingBuddy/ParkingBuddyHPScreenShot.png",
             "title": "ParkingBuddy",
-            "description": "BootStrap, MongoDB, Techs",
-            "url": "https:/"
+            "description": "BootStrap Studio, Nodemon, Connect-Flash, Bcrypt, Sessions, mysql2, Sequelize, JavaScript",
+            "url": "https://serene-cove-30368.herokuapp.com/"
+        },
+        {
+            "cover": "/portfolio/Cardify/CardifyHomePage.png",
+            "title": "Cardify",
+            "description": "JavaScript, React, GraphQL, JWT, MongoDB, Heroku",
+            "url": "https://floating-brushlands-04245.herokuapp.com/"
         }
     ]
 }
