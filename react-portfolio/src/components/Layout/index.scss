@@ -131,7 +131,8 @@
 
         &.about-page,
         &.contact-page,
-        &.portfolio-page {
+        &.portfolio-page,
+        &.home-page {
 
             .text-zone {
                 position: initial;
@@ -140,6 +141,10 @@
                 display: block;
                 padding: 20px;
                 box-sizing: border-box; 
+            }
+
+            .solid-logo {
+                    display: none;
             }
         }
     }

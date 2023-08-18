@@ -21,17 +21,13 @@
         position: absolute;
         top: auto;
         right: auto;
-        bottom: auto;
-        left: 0;
+        bottom: -375px;
+        left: -200px;
         margin: auto;
-        width: 100%;
+        width: 150%;
         opacity: 0;
-        transform: rotatez(30deg);
+        transform: rotatez(10deg);
         z-index: 1;
+        border-radius: 15px;
     }
 }
-
-// .svg-container {
-//     stroke: #ffd700;
-//     stroke-width: 10px;
-// }

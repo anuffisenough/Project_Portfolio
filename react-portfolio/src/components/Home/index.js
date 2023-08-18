@@ -8,7 +8,7 @@ import Logo from './Logo';
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const nameArray = ['C', 'h', 'r', 'i', 's', 't', 'o', 'p', 'h', 'e', 'r']
-    const jobArray = ['f', 'u', 'l', 'l', ' ', 's', 't', 'a', 'c', 'k', ' ', 'w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']    
+    const jobArray = ['F', 'u', 'l', 'l', '-', 'S', 't', 'a', 'c', 'k', ' ', 'W', 'e', 'b', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']    
     
     useEffect(() => {
         let timeout = setTimeout(() => {
@@ -36,12 +36,13 @@ const Home = () => {
                 <AnimatedLetters letterClass={letterClass}
                 strArray={nameArray}
                 idx={18} />
+                <span className={`${letterClass} _29`}>,</span>
                 <br />
                 <AnimatedLetters letterClass={letterClass}
                 strArray={jobArray}
-                idx={16} />
+                idx={30} />
                 </h1>
-                <h2>Full Stack Developer</h2>
+                <h2>Full-Stack Development / Accounts Management / Coaching</h2>
                 <Link to="/contact" className="flat-button">Contact Me</Link>
             </div>
             <Logo />
