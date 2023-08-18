@@ -68,6 +68,10 @@
         border: 1px solid #ffd700;
         float: right;
         border-radius: 4px;
+
+        &:hover {
+            cursor: pointer;
+        }
     }
 }
 
@@ -86,6 +90,7 @@
     opacity: 0;
     animation: fadeIn 1s 1.5s;
     animation-fill-mode: forwards;
+    text-align: left;
 
     span {
         font-size: 16px;
