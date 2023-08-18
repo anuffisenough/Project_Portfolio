@@ -55,7 +55,7 @@ const Contact = () => {
                         I am interested in programming opportunities or freelance work that utilize front-end, back-end, or full-stack development skills.
                     </p>
                     <p>
-                        Please feel free to send me a message if you feel I can be an asset to your company or project!
+                        Please send me a message if I can help your company or project.
                     </p>
                     <div className="contact-form">
                         <form ref={refForm} onSubmit={sendEmail}>
